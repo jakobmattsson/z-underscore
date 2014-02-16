@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - '0.11'
+  - '0.10'
+deploy:
+  provider: npm
+  email: jakob.mattsson@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: IsWI3deAZvno75I8ToL4D4jaWoZQfoeu9bgyplF/PbvwhLwY0k02WoyRyumndiqQXBLy2hwjG1sH4R9hBmKtlQkCJs8nEZVRDCrPuz8svvHfxi9Jqm5qi9oiR/tAh0kXps7nB75sVaALhTur0Lt5dVUNcAkZm+FfIM4RVb8+Pi0=
+  on:
+    node: '0.10'
+    tags: true
+    repo: jakobmattsson/z-underscore
